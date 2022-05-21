@@ -1,0 +1,4 @@
+repositoryName=docker-pgbouncer-alpine
+repositoryOrgName=HillLiu
+dockerImageName=pgbouncer-alpine
+dockerOrgName=hillliu
