@@ -27,6 +27,9 @@ jobs:
             FOLDER=${FOLDER_PREFIX}<< parameters.docker-tag >>
             ./build.sh << parameters.docker-tag >>
             ls -la ${FOLDER}
+            echo "###"
+            echo "# --- Dockerfile Content ---"
+            echo "###"
             cat ${FOLDER}/Dockerfile
       - run:
           name: build Docker image
